@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLN HSSE & Keamanan</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #17324d;
+    }
+    header {
+      background: #0066a1;
+      color: white;
+      padding: 24px 18px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; font-size: 24px; }
+    header p { margin: 0; }
+    main { max-width: 700px; margin: auto; padding: 20px; }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .item {
+      background: white;
+      padding: 22px 12px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 8px #00000012;
+    }
+    .icon { font-size: 32px; }
+    .item h2 { font-size: 16px; margin-bottom: 8px; }
+    .item p { font-size: 13px; color: #526477; }
+    footer { text-align: center; padding: 20px; font-size: 12px; }
+    @media (max-width: 400px) {
+      main { padding: 12px; }
+      .menu { gap: 9px; }
+      .item { padding: 16px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HSSE & KEAMANAN</h1>
+    <p>Aplikasi Pembelajaran dan Pelaporan</p>
+  </header>
+
+  <main>
+    <h2>Menu Utama</h2>
+    <div class="menu">
+      <section class="item">
+        <div class="icon">🦺</div>
+        <h2>Inspeksi K3</h2>
+        <p>Pemeriksaan kondisi tempat kerja</p>
+      </section>
+      <section class="item">
+        <div class="icon">⚠️</div>
+        <h2>Unsafe Condition</h2>
+        <p>Pelaporan kondisi tidak aman</p>
+      </section>
+      <section class="item">
+        <div class="icon">🛡️</div>
+        <h2>Patroli Keamanan</h2>
+        <p>Pencatatan hasil patroli</p>
+      </section>
+      <section class="item">
+        <div class="icon">📝</div>
+        <h2>Laporan Insiden</h2>
+        <p>Pencatatan kejadian</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    Versi pembelajaran — gunakan data simulasi
+  </footer>
+</body>
+</html>
